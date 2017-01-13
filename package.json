@@ -1,0 +1,49 @@
+{
+  "name": "tfk-template-to-pdf-node",
+  "description": "Create pdf document from template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@gmail.com",
+    "url": "https://github.com/maccyber"
+  },
+  "keywords": [
+    "convert",
+    "pdf",
+    "template",
+    "tfk",
+    "Telemark fylkeskommune"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/tfk-template-to-pdf-node.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/tfk-template-to-pdf-node/issues"
+  },
+  "homepage": "https://github.com/telemark/tfk-template-to-pdf-node",
+  "engines": {
+    "node": ">=4.6.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js",
+    "standard-fix": "standard --fix"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "nsp": "2.6.1",
+    "standard": "8.6.0",
+    "tap": "9.0.1"
+  },
+  "dependencies": {
+    "file-exists": "2.0.0",
+    "generate-docx": "1.0.1",
+    "unoconv2": "1.0.0",
+    "uuid": "3.0.1"
+  }
+}
