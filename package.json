@@ -35,14 +35,14 @@
     "standard-fix": "standard --fix"
   },
   "devDependencies": {
-    "coveralls": "2.11.15",
-    "nsp": "2.6.1",
+    "coveralls": "2.11.16",
+    "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "9.0.1"
+    "tap": "10.0.2"
   },
   "dependencies": {
     "file-exists": "2.0.0",
-    "generate-docx": "1.0.1",
+    "generate-docx": "1.0.2",
     "unoconv2": "1.0.0",
     "uuid": "3.0.1"
   }
