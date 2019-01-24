@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/telemark/tfk-template-to-pdf-node",
   "engines": {
-    "node": ">=4.6.2"
+    "node": ">=8.15.0"
   },
   "main": "index.js",
   "scripts": {
