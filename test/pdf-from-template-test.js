@@ -38,7 +38,7 @@ tap.test('requires options.templateFilepath to exist', function (test) {
 tap.test('requires options.templateFilepath to be valid', function (test) {
   var options = {
     templateData: true,
-    templateFilepath: '/none/existing/file/here.docx'
+    templateFilepath: 'none/existing/file/here.docx'
   }
   var expectedErrorMessage = 'options.templateFilepath is invalid'
   createPdfFromTemplate(options, function (error, data) {
