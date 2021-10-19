@@ -38,7 +38,7 @@
   "devDependencies": {
     "coveralls": "3.1.1",
     "standard": "13.1.0",
-    "tap": "13.1.11"
+    "tap": "14.11.0"
   },
   "dependencies": {
     "file-exists": "5.0.1",
